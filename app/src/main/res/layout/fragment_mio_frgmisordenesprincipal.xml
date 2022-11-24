@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey_400"
+    android:padding="@dimen/activity_margin"
+    tools:context=".tendero.Inicio_sesion.ui.Mis_ordenes.mio_frgmisordenesprincipal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <SearchView
+                android:id="@+id/mio_mopsrchvwbuscaridorden"
+                android:background="@drawable/outline_textinputedittext"
+                android:layout_width="365dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="9dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Spinner
+                android:id="@+id/mio_mopspnordenarporestado"
+                android:background="@drawable/outline_spinner"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:spinnerMode="dropdown"
+
+                android:entries="@array/Filtro_ordenestado" />
+
+            <Spinner
+                android:id="@+id/mio_mopspnordenarporfecha"
+                android:background="@drawable/outline_spinner"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:spinnerMode="dropdown"
+                android:text="@string/mio_varstrmisordenesprincipal9"
+                android:entries="@array/Filtro_ordenfecha" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mio_moprclvlistaproductos"
+            >
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+</ScrollView>

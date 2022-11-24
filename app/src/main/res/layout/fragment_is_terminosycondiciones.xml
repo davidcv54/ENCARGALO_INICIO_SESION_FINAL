@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="370dp"
+    android:layout_height="match_parent"
+    tools:context=".fragment_is_terminosycondiciones">
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="1000dp"
+        android:orientation="vertical"
+        android:background="@color/whitePrimary"
+        android:padding="@dimen/activity_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/is_tyctxtterminosycondiciones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/is_varstrterminosycondiciones1"
+                android:textColor="@color/blackPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/is_txtcontenidotyc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="30dp"
+                android:text="@string/is_varstrterminosycondiciones2"
+                android:textColor="@color/blackPrimary"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:id="@+id/is_txtpoliticas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/is_varstrterminosycondiciones3"
+                android:textColor="@color/blackPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/is_txtcontenidopoliticas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="30dp"
+                android:text="@string/is_varstrterminosycondiciones2"
+                android:textColor="@color/blackPrimary"
+                android:justificationMode="inter_word"/>
+
+            <Button
+                android:id="@+id/is_tycbtncerrarterminos"
+                android:layout_width="@dimen/btn_type03_width"
+                android:layout_height="wrap_content"
+                android:background="@drawable/containedbutton_white"
+                android:text="@string/is_varstrterminosycondiciones5"
+                android:textAllCaps="false"
+                android:radius="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/redPrimary"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

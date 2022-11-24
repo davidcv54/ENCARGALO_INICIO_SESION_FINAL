@@ -1,0 +1,194 @@
+<resources>
+    <string name="app_name">ENCARGALO</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+    <!--        OPCIONES DEL MENU                  -->
+
+    <string name="menu_mitienda">MI TIENDA</string>
+    <string name="menu_misproductos">MIS PRODUCTOS</string>
+    <string name="menu_misordenes">MIS ORDENES</string>
+    <string name="mio_menu_detallepedido">DETALLE DEL PEDIDO</string>
+    <string name="mio_menu_detalleproducto">DETALLE DEL PRODUCTO</string>
+    <string name="mio_menu_conversacion">CONVERSACION</string>
+    <string name="menu_mipublicidad">MI PUBLICIDAD</string>
+    <string name="menu_miaprendizaje">MI APRENDIZAJE</string>
+    <string name="menu_soporte">SOPORTE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- O1 MÓDULO INICIO DE SESIÓN -->
+
+    <!-- is_iniciarsesionprincipal -->
+    <string name="is_varstriniciariesionprincipal1">ENVÍA TUS PRODUCTOS A MÁS PERSONAS</string>
+    <string name="is_varstriniciariesionprincipal2">Continuar con Facebook</string>
+    <string name="is_varstriniciariesionprincipal3">Continuar con Google</string>
+    <string name="ok">OK</string>
+    <string name="loading">Loading</string>
+    <string name="account_deactivate">Your Account is deactivate by admin</string>
+    <string name="completed_register">we\'re almost done, we just need you to upload your profile picture</string>
+    <string name="default_web_client_id" translatable="false">869132616981-v7gms838fme64hfud43s6sconqee4t8m.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">869132616981</string>
+    <string name="google_api_key" translatable="false">AIzaSyBgTB4wH2vYgkQnA4ob8DQqIs54_DQStss</string>
+    <string name="google_app_id" translatable="false">1:869132616981:android:dff11b6c8d905c5b74551c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBgTB4wH2vYgkQnA4ob8DQqIs54_DQStss</string>
+    <string name="google_storage_bucket" translatable="false">encargalo-268d4.appspot.com</string>
+    <string name="project_id" translatable="false">encargalo-268d4</string>
+
+    <string name="facebook_app_id">527693228852939</string>
+    <string name="fb_login_protocol_scheme">fb527693228852939</string>
+    <string name="facebook_client_token">e1d702468111fb8695c474e2b8ba121c</string>
+
+
+    <!-- Is_crearunacuenta -->
+    <string name="is_varstrcrearunacuenta1">Nombre</string>
+    <string name="is_varstrcrearunacuenta2">Apellido</string>
+    <string name="is_varstrcrearunacuenta3">Correo</string>
+    <string name="is_varstrcrearunacuenta4">Tipo de Persona</string>
+    <string name="is_varstrcrearunacuenta5">Número de Documento</string>
+    <string name="is_varstrcrearunacuenta6">Acepto los términos y condiciones y políticas de Privacidad</string>
+    <string name="is_varstrcrearunacuenta7">Registrarse</string>
+
+    <string name="is_varstrcrearunacuenta9">Acepto términos y condiciones y políticas de Privacidad</string>
+
+    <string-array name="is_qpkitemspinnercodpais">
+        <item>+1</item>
+        <item>+52</item>
+        <item>+51</item>
+        <item>+54</item>
+        <item>+55</item>
+        <item>+56</item>
+        <item>+57</item>
+        <item>+58</item>
+        <item>+501</item>
+        <item>+502</item>
+        <item>+503</item>
+        <item>+504</item>
+        <item>+505</item>
+        <item>+506</item>
+        <item>+507</item>
+        <item>+591</item>
+        <item>+591</item>
+        <item>+592</item>
+        <item>+595</item>
+        <item>+597</item>
+        <item>+598</item>
+    </string-array>
+
+    <!-- is_verificacioncodigo -->
+    <string name="is_varstrverificacioncodigo1">Ingrese el código de verificación</string>
+    <string name="is_varstrverificacioncodigo2">Se le ha enviado un código de verificación a tu cuenta de correo</string>
+    <string name="is_varstrverificacioncodigo3">Verificar Cuenta</string>
+    <string name="is_varstrverificacioncodigo4">Reenviar Código</string>
+    <string name="is_varstrverificacioncodigo5">Continuar</string>
+
+
+    <!-- O2 MÓDULO MIS ÓRDENES -->
+
+
+    <!-- mio_misordenesprincipal -->
+
+    <string name="mio_varstrmisordenesprincipal1">Buscar id de orden</string>
+    <string name="mio_varstrmisordenesprincipal2">Filtrar por estado</string>
+    <string name="mio_varstrmisordenesprincipal9">Filtrar por fecha</string>
+    <string name="mio_varstrmisordenesprincipal3">ID ORDEN:</string>
+    <string name="mio_varstrmisordenesprincipal4">Cliente:</string>
+    <string name="mio_varstrmisordenesprincipal5">Órden creada el:</string>
+    <string name="mio_varstrmisordenesprincipal6">Órden entregada el:</string>
+    <string name="mio_varstrmisordenesprincipal7">Detalle</string>
+    <string name="mio_varstrmisordenesprincipal8">Chat</string>
+
+    <string-array name="Filtro_ordenestado">
+        <item>ESTADO</item>
+        <item>SOLICITADO</item>
+        <item>ACEPTADO</item>
+        <item>RECHAZADO</item>
+        <item>EN PREPARACION</item>
+        <item>PREPARADO</item>
+        <item>EN CAMINO</item>
+        <item>ENTREGADO</item>
+        <item>RECLAMADO</item>
+    </string-array>
+
+    <string-array name="Filtro_ordenfecha">
+        <item> Fecha inicio</item>
+        <item>Fecha fin</item>
+    </string-array>
+
+    <!-- mio_detallepedido -->
+    <string name="mio_varstrdetallepedido1">Detalle de pedido</string>
+    <string name="mio_varstrdetallepedido2">Detalle de pedido N°: </string>
+    <string name="mio_varstrdetallepedido3">00000000</string>
+    <string name="mio_varstrdetallepedido4">Nombre del cliente: </string>
+    <string name="mio_varstrdetallepedido5">Seleccione repartidor: </string>
+    <string name="mio_varstrdetallepedido6">Chat</string>
+    <string name="mio_varstrdetallepedido7">Estado del Pedido</string>
+    <string name="mio_varstrdetallepedido8">Solicitada</string>
+
+    <string name="mio_varstrdetallepedido9">Acepta/Rechazado</string>
+    <string name="mio_varstrdetallepedido10">En Preparación</string>
+    <string name="mio_varstrdetallepedido11">En Camino</string>
+    <string name="mio_varstrdetallepedido12">Entregado</string>
+    <string name="mio_varstrdetallepedido13">Reclamado</string>
+    <string name="mio_varstrdetallepedido14">Dirección de entrega</string>
+    <string name="mio_varstrdetallepedido15">dirección</string>
+    <string name="mio_varstrdetallepedido16">Productos</string>
+    <string-array name="repartidores">
+        <item>Paolo</item>
+        <item>Adrián</item>
+    </string-array>
+
+    <!-- mio_detalleproducto -->
+    <string name="mio_varstrdetalleproducto1">Detalle pedidos N:</string>
+    <string name="mio_varstrdetalleproducto2">Productos:</string>
+    <string name="mio_varstrdetalleproducto3">Agua mineral San Carlos 500ml</string>
+    <string name="mio_varstrdetalleproducto4">s/1.5 x un</string>
+    <string name="mio_varstrdetalleproducto5">1 un s/1.5</string>
+    <string name="mio_varstrdetalleproducto6">Cancelar Orden</string>
+    <string name="mio_varstrdetalleproducto7">Enviar</string>
+
+    <!-- mio_conversacióncliente-->
+    <string name="mio_varstrchatcliente1">CONVERSACIÓN</string>
+    <string name="mio_varstrchatcliente2">Cliente</string>
+    <string name="mio_varstrchatcliente4">repartidor</string>
+    <string name="mio_varstrchatcliente7">Escribir aqui</string>
+    <string name="mio_varstrchatcliente8">Tendero</string>
+
+
+    <!-- mio_mensajeconfirmación -->
+    <string name="mio_varstrmensajeconformacion1">El envío de los productos se hizo correctamente</string>
+    <string name="mio_varstrmensajeconformacion2">Eso fué rápido</string>
+    <string name="mio_varstrmensajeconformacion3">Volver inicio</string>
+
+    <!-- mio_cancelarorden -->
+    <string name="mio_varstrcancelarorden1">¿Seguro que desea cancelar la orden?</string>
+    <string name="mio_varstrcancelarorden2">Aceptar</string>
+    <string name="mio_varstrcancelarorden3">Cancelar</string>
+
+    <!-- mio_enviarorden -->
+    <string name="mio_varstrenviarorden1">¿Seguro que desea enviar los productos al cliente?</string>
+    <string name="mio_varstrenviarorden2">Aceptar</string>
+    <string name="mio_varstrenviarorden3">Cancelar</string>
+
+    <!-- mio_terminosycondiciones -->
+    <string name="is_varstrterminosycondiciones1">Términos y condiciones de uso</string>
+    <string name="is_varstrterminosycondiciones2">""</string>
+    <string name="is_varstrterminosycondiciones3">Política de privacidad</string>
+    <string name="is_varstrterminosycondiciones4">""</string>
+    <string name="is_varstrterminosycondiciones5">Cancelar</string>
+
+    <!-- mio_brindarubicaion -->
+    <string name="mio_varstrbrindarubicacion1">¿Desea activar su ubicación?</string>
+    <string name="mio_varstrbrindarubicacion2">Si</string>
+    <string name="mio_varstrbrindarubicacion3">No</string>
+
+</resources>

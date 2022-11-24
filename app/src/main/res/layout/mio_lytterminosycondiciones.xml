@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:background="@color/whitePrimary"
+    android:padding="@dimen/activity_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/is_tyctxtterminosycondiciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/is_varstrterminosycondiciones1"
+            android:textColor="@color/blackPrimary"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/is_tyctxtcontenidoterminos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:text="@string/is_varstrterminosycondiciones2"
+            android:textColor="@color/blackPrimary"/>
+
+        <TextView
+            android:id="@+id/is_tyctxtcontenido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:text="@string/is_varstrterminosycondiciones2"
+            android:textColor="@color/blackPrimary"/>
+
+        <Button
+            android:id="@+id/is_tycbtncerrarterminos"
+            android:layout_width="@dimen/btn_type03_width"
+            android:layout_height="wrap_content"
+            android:background="@drawable/containedbutton_white"
+            android:text="@string/is_varstrterminosycondiciones3"
+            android:textAllCaps="false"
+            android:radius="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/redPrimary"/>
+
+    </LinearLayout>
+</LinearLayout>

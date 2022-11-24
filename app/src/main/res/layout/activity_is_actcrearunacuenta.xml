@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity_is_actcrearunacuenta"
+    android:layout_margin="@dimen/activity_margin"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@+id/is_lytcrearunacuenta"
+        >
+
+
+        <ImageView
+            android:id="@+id/is_cucimg_user"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/is_varstrcrearunacuenta1"
+            android:layout_marginTop="40dp"
+            android:textSize="15dp"
+            android:textColor="@color/grey_600"
+            android:layout_marginLeft="40dp"
+            android:autoSizeMaxTextSize="12dp"
+            />
+
+        <EditText
+            android:id="@+id/is_cucedtnombre"
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:background="@drawable/containedbtn_grey"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+            android:maxLength="20"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/is_varstrcrearunacuenta2"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:textColor="@color/grey_600"
+            android:layout_marginLeft="40dp"
+            android:autoSizeMaxTextSize="12dp"
+            />
+        <EditText
+            android:id="@+id/is_cucedtapellido"
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="@drawable/containedbtn_grey"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/is_varstrcrearunacuenta3"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:textColor="@color/grey_600"
+            android:layout_marginLeft="40dp"
+            android:autoSizeMaxTextSize="12dp"
+            />
+
+        <EditText
+            android:id="@+id/is_cucedtcorreo"
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:background="@drawable/containedbtn_grey"
+            android:focusable="false"
+            android:inputType="none"
+            android:textIsSelectable="false"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/is_varstrcrearunacuenta4"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:textColor="@color/grey_600"
+            android:layout_marginLeft="40dp"
+            android:autoSizeMaxTextSize="12dp"
+
+            />
+        <Spinner
+            android:id="@+id/is_cucspntipopersona"
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:spinnerMode="dropdown"
+            android:layout_marginTop="16dp"
+
+            android:background="@drawable/outline_spinner" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/is_varstrcrearunacuenta5"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:textColor="@color/grey_600"
+            android:layout_marginLeft="40dp"
+            android:autoSizeMaxTextSize="12dp"
+            />
+
+        <EditText
+            android:id="@+id/is_cucedtdocumentoidentidad"
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:background="@drawable/containedbtn_grey"
+            android:gravity="center"
+            android:inputType="number"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Celular"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:textColor="@color/grey_600"
+            android:layout_marginLeft="40dp"
+            android:autoSizeMaxTextSize="12dp"   />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <Spinner
+                android:id="@+id/is_cuccodpais"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:spinnerMode="dropdown"
+                android:entries="@array/is_qpkitemspinnercodpais"
+                android:background="@drawable/outline_spinner" />
+
+
+            <EditText
+                android:id="@+id/is_cucedtnumtelefono"
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/containedbtn_grey"
+                android:gravity="center"
+                android:inputType="phone"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp"
+            android:gravity="center">
+
+            <CheckBox
+                android:id="@+id/is_cucchkbcheckterminos"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="35dp"/>
+
+            <TextView
+                android:id="@+id/is_cucbtnterminosycondiciones"
+                android:layout_width="230dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:clickable="true"
+                android:layout_marginTop="10dp"
+                android:text="@string/is_varstrcrearunacuenta9"
+                android:textAllCaps="false"
+                android:textColor="@color/blue_600"
+                android:contextClickable="true"
+                android:textSize="15dp" />
+        </LinearLayout>
+        //android:background="none"
+
+
+
+        <Button
+            android:id="@+id/is_cucbtnRegistrarse"
+            android:layout_width="@dimen/btn_type04_width"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/containedbtn_blue"
+            android:text="@string/is_varstrcrearunacuenta7"
+            android:textAllCaps="true"
+            android:textColor="@color/whitePrimary"
+            android:clickable = "false"
+            />
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+
+
